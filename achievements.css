@@ -1,0 +1,37 @@
+html * {
+  font-family: Comfortaa, sans-serif;
+}
+
+body {
+  background-color: #b2f5a4;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#mainTitleText {
+  color: black;
+  text-align: center;
+}
+
+#mainMenu {
+  font-size: 19px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+#mainMenu a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 8px;
+}
