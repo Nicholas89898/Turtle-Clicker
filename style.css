@@ -1,9 +1,17 @@
 html * {
   font-family: Comfortaa, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #b2f5a4;
+}
+
+@media (max-width: 700px) {
+  #upgradesMenu {
+    position: static;
+    width: 90%;
+  }
 }
 
 a {
