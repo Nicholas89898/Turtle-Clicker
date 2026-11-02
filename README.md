@@ -9,3 +9,4 @@ See the [LICENSE](LICENSE) file for details.
 ## Credits
 
 - Game development: TechGrapes
+- Graphic designer: Panchip1 (https://discord.com/users/1463475724274106480)
