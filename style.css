@@ -7,13 +7,6 @@ body {
   background-color: #b2f5a4;
 }
 
-@media (max-width: 700px) {
-  #upgradesMenu {
-    position: static;
-    width: 90%;
-  }
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -100,10 +93,20 @@ a {
 }
 
 .upgrade {
-  display: flexbox;
+  flex-direction: column;
+  align-items: center;
   width: 200px;
   padding: 15px;
 
   border-radius: 5px;
   background-color: rgb(233, 227, 227);
+}
+
+@media (max-width: 700px) {
+  #mainMenu {
+    position: static;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    font-size: 15px;
+  }
 }
