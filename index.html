@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turtle Clicker🐢</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="mainTitleText">Turtle Clicker</h1>
+    <div id="mainMenu">
+      <a class="gameButtonMenu" href="index.html">Game</a>
+
+      <a id="skinsButtonMenu" href="skins.html">Skins</a>
+
+      <a id="achievementsButtonMenu" href="achievements.html">Achievements</a>
+      <button id="clearAllData">Clear all data</button>
+    </div>
+    <br />
+    <br />
+    <div id="score">
+      <h2>Turtles:</h2>
+      <h2 id="scoreText">0</h2>
+    </div>
+    <div id="tps">
+      <h4>Turtles per second:</h4>
+      <h4 id="tpsText">0</h4>
+    </div>
+
+    <img src="mainTurtle.png" id="turtle" />
+
+    <div id="upgradesMenu">
+      <div id="clickPower">
+        <h3>Click power:</h3>
+        <h3 id="clickPowerText">1</h3>
+      </div>
+
+      <h3>Upgrades:</h3>
+
+      <div class="upgrade" id="upgrade1">
+        <h3>Autoclicker</h3>
+        <p>+1 Turtle per second</p>
+        <p>Cost: 100</p>
+        <button id="buy1">Buy</button>
+      </div>
+
+      <div class="upgrade" id="upgrade2">
+        <h3>Turtle Hand</h3>
+        <p>+1 Turtles per click</p>
+        <p>Cost: 150 coins</p>
+        <button id="buy2">Buy</button>
+      </div>
+      <div class="upgrade" id="upgrade3">
+        <h3>Turtle Farm</h3>
+        <p>+3 Turtle per second</p>
+        <p>Cost: 1000</p>
+        <button id="buy3">Buy</button>
+      </div>
+
+      <div class="upgrade" id="upgrade4">
+        <h3>Turtle Glove</h3>
+        <p>+5 Turtles per click</p>
+        <p>Cost: 1250 coins</p>
+        <button id="buy4">Buy</button>
+      </div>
+
+      <div class="upgrade" id="upgrade5">
+        <h3>Turtle Factory</h3>
+        <p>+10 Turtle per second</p>
+        <p>Cost: 10000</p>
+        <button id="buy5">Buy</button>
+      </div>
+
+      <div class="upgrade" id="upgrade6">
+        <h3>Rich Hand</h3>
+        <p>+14 Turtles per click</p>
+        <p>Cost: 13000 coins</p>
+        <button id="buy6">Buy</button>
+      </div>
+    </div>
+  </body>
+</html>
