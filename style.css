@@ -1,5 +1,7 @@
 html * {
-  font-family: Comfortaa, sans-serif;
+  font-family:
+    Comfortaa,
+    Arial Rounded MT Bold;
   box-sizing: border-box;
 }
 
