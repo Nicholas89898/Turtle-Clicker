@@ -93,7 +93,7 @@ document.getElementById("buy2").addEventListener("click", function () {
 /* Turtle Farm Upgrade */
 document.getElementById("buy3").addEventListener("click", function () {
   if (score >= 1000) {
-    turtlesPerSecond += 3;
+    turtlesPerSecond += 14;
     score -= 1000;
     updateFunction();
     saveGame();
@@ -103,7 +103,7 @@ document.getElementById("buy3").addEventListener("click", function () {
 /* Turtle Glove Upgrade */
 document.getElementById("buy4").addEventListener("click", function () {
   if (score >= 1250) {
-    turtlesPerClick += 5;
+    turtlesPerClick += 10;
     score -= 1250;
     updateFunction();
     saveGame();
@@ -112,7 +112,7 @@ document.getElementById("buy4").addEventListener("click", function () {
 /* Turtle Factory Upgrade */
 document.getElementById("buy5").addEventListener("click", function () {
   if (score >= 10000) {
-    turtlesPerSecond += 10;
+    turtlesPerSecond += 160;
     score -= 10000;
     updateFunction();
     saveGame();
