@@ -8,8 +8,8 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Credits
 
-- Game development: TechGrapes (https://guns.lol/techgrapes)
-- Graphic designer: Panchip1 (https://discord.com/users/1463475724274106480)
+- Lead Programmer: TechGrapes (https://guns.lol/techgrapes)
+- Lead Graphic designer: Panchip1 (https://discord.com/users/1463475724274106480)
 
 ## Webpage
 
