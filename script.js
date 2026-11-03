@@ -253,11 +253,11 @@ document.getElementById("buy7").addEventListener("click", function () {
   }
 });
 
-/* Rich Hand Upgrade */
+/* Royal Hand Upgrade */
 document.getElementById("buy8").addEventListener("click", function () {
-  if (score >= getUpgradeCost(20000, 1.2, upgrade8TimesBought)) {
-    turtlesPerClick += 12;
-    score -= getUpgradeCost(20000, 1.2, upgrade8TimesBought);
+  if (score >= getUpgradeCost(75000, 1.2, upgrade8TimesBought)) {
+    turtlesPerClick += 24;
+    score -= getUpgradeCost(75000, 1.2, upgrade8TimesBought);
     upgrade8TimesBought++;
     updateFunction();
     saveGame();
