@@ -158,6 +158,7 @@ turtle.addEventListener("click", function () {
 
 /* Clear all data button */
 document.getElementById("clearAllData").addEventListener("click", function () {
+  localStorage.clear();
   turtlesPerClick = 1;
   turtlesPerSecond = 0;
   score = 0;
@@ -173,7 +174,6 @@ document.getElementById("clearAllData").addEventListener("click", function () {
   upgrade10TimesBought = 0;
   saveGame();
   updateFunction();
-  localStorage.clear();
 });
 
 /* Autoclicker Upgrade */
