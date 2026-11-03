@@ -9,7 +9,8 @@ See the [LICENSE](LICENSE) file for details.
 ## Credits
 
 - Lead Programmer: TechGrapes (https://guns.lol/techgrapes)
-- Lead Graphic designer: Panchip1 (https://discord.com/users/1463475724274106480)
+- Lead Graphic designer & Music Maker: Panchip1 (https://discord.com/users/1463475724274106480)
+- Graphic designer: TearDrop (https://discord.com/users/1546518007272972338)
 
 ## Webpage
 
