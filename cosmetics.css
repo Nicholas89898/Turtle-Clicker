@@ -35,3 +35,87 @@ a {
   background-color: white;
   border-radius: 8px;
 }
+
+#turtlePreview {
+  position: relative;
+  width: 400px;
+  aspect-ratio: 1;
+  margin: 20px auto;
+}
+
+#turtlePreview img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+#cosmeticsMenu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+#cosmeticCategories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 170px;
+}
+
+.categoryButton {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.categoryButton:hover {
+  background-color: #e5e5e5;
+}
+
+#cosmeticItems {
+  flex: 1;
+  min-height: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+#itemsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 15px;
+}
+
+@media (max-width: 700px) {
+  #cosmeticsMenu {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  #cosmeticCategories {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .categoryButton {
+    flex: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  #mainMenu {
+    position: static;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    font-size: 15px;
+  }
+}
