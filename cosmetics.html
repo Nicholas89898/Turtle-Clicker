@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turtle Clicker🐢</title>
     <link rel="stylesheet" href="cosmetics.css" />
-    <script src="script.js" defer></script>
+    <script src="cosmetics.js" defer></script>
   </head>
   <body>
     <h1 id="mainTitleText">Turtle Clicker</h1>
@@ -15,6 +15,35 @@
       <a id="skinsButtonMenu" href="cosmetics.html">Cosmetics</a>
 
       <a id="achievementsButtonMenu" href="achievements.html">Achievements</a>
+    </div>
+
+    <div id="turtlePreview">
+      <img src="images/colours/greenTurtle.png" alt="Turtle" id="colour" />
+      <img id="accessories" />
+      <img id="headwear" />
+      <img id="outfits" />
+    </div>
+
+    <div id="cosmeticsMenu">
+      <div id="cosmeticCategories">
+        <button class="categoryButton" data-category="headwear">
+          Headwear
+        </button>
+
+        <button class="categoryButton" data-category="colours">Colours</button>
+
+        <button class="categoryButton" data-category="outfits">Outfits</button>
+
+        <button class="categoryButton" data-category="accessories">
+          Accessories
+        </button>
+      </div>
+
+      <div id="cosmeticItems">
+        <h2 id="categoryTitle">Headwear</h2>
+        <button id="unequipButton">Unequip</button>
+        <div id="itemsGrid"></div>
+      </div>
     </div>
   </body>
 </html>
