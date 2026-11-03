@@ -245,7 +245,7 @@ document.getElementById("buy6").addEventListener("click", function () {
 /* Turtle Power Plant Upgrade */
 document.getElementById("buy7").addEventListener("click", function () {
   if (score >= getUpgradeCost(40000, 1.2, upgrade7TimesBought)) {
-    turtlesPerCSecond += 125;
+    turtlesPerSecond += 125;
     score -= getUpgradeCost(40000, 1.2, upgrade7TimesBought);
     upgrade7TimesBought++;
     updateFunction();
