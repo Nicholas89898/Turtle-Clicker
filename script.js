@@ -252,3 +252,14 @@ document.getElementById("buy7").addEventListener("click", function () {
     saveGame();
   }
 });
+
+/* Rich Hand Upgrade */
+document.getElementById("buy8").addEventListener("click", function () {
+  if (score >= getUpgradeCost(20000, 1.2, upgrade8TimesBought)) {
+    turtlesPerClick += 12;
+    score -= getUpgradeCost(20000, 1.2, upgrade8TimesBought);
+    upgrade8TimesBought++;
+    updateFunction();
+    saveGame();
+  }
+});
