@@ -131,6 +131,9 @@ function updateFunction() {
 
   document.getElementById("upgrade6Cost").textContent =
     "Cost: " + getUpgradeCost(20000, 1.2, upgrade6TimesBought);
+
+  document.getElementById("upgrade7Cost").textContent =
+    "Cost: " + getUpgradeCost(40000, 1.2, upgrade7TimesBought);
 }
 
 /* Scalling Function */
@@ -234,6 +237,17 @@ document.getElementById("buy6").addEventListener("click", function () {
     turtlesPerClick += 12;
     score -= getUpgradeCost(20000, 1.2, upgrade6TimesBought);
     upgrade6TimesBought++;
+    updateFunction();
+    saveGame();
+  }
+});
+
+/* Turtle Power Plant Upgrade */
+document.getElementById("buy7").addEventListener("click", function () {
+  if (score >= getUpgradeCost(40000, 1.2, upgrade7TimesBought)) {
+    turtlesPerCSecond += 123;
+    score -= getUpgradeCost(40000, 1.2, upgrade7TimesBought);
+    upgrade7TimesBought++;
     updateFunction();
     saveGame();
   }
