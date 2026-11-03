@@ -94,6 +94,13 @@ a {
   gap: 15px;
 }
 
+.cosmeticImage {
+  width: 100px;
+  height: auto;
+
+  border: 1px solid black;
+}
+
 @media (max-width: 700px) {
   #cosmeticsMenu {
     flex-direction: column;
