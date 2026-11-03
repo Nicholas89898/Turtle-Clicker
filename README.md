@@ -14,4 +14,4 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Webpage
 
-You can play the game here: https://nicholas89898.github.io/Turtle-Clicker/index.html
+You can play the game here: https://techgrapes.github.io/Turtle-Clicker/index.html
