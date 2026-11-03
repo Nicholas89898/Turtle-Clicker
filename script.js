@@ -170,6 +170,7 @@ document.getElementById("clearAllData").addEventListener("click", function () {
   upgrade10TimesBought = 0;
   saveGame();
   updateFunction();
+  localStorage.clear();
 });
 
 /* Autoclicker Upgrade */
